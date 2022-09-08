@@ -1,28 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/cppFiles/main.cc to edit this template
- */
-
 /* 
- * File:   main.cpp
- * Author: Wingtai Liu
- *
- * Created on September 7, 2022, 10:39 PM
+ * Author: wingtai liu 
+ * Date:9/8/2022
+ * Purpose: Hello World
  */
 
-#include <cstdlib>
+//System Libraries Here
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 
-/*
- * 
- */
+//User Libraries Here
+
+//Global Constants Only, No Global Variables
+//Constants like PI, e, Gravity, Conversions, 2D array size only!
+
+//Function Prototypes Here
+
+//Program Execution Begins Here
 int main(int argc, char** argv) {
+    //Set Random Number Seed Here
     
-    cout << "Hello World" << endl;
+    //Declare all Variables Here
+    string greet;
+    //Input or initialize values Here
+    greet = "Hello World!";
+    //Process/Calculations Here
     
+    //Output Located Here
+    cout << endl;
+    cout << setw(15) << greet << "  " << endl;
+    cout << endl;
+    //Exit
     return 0;
 }
-
-
